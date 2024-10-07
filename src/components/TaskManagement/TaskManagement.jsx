@@ -94,7 +94,7 @@ function TaskManagement() {
           <Input ref={inputRef} />
         </Form.Item>
         <Button type="primary" htmlType="submit">
-          Submit
+          Add Task
         </Button>
       </Form>
       <Flex vertical gap="middle" className={styles['status-radio-group']}>

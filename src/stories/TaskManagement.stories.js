@@ -13,7 +13,7 @@ export default {
 export const Normal = {
     play: async ({ canvasElement }) => {
       const canvas = within(canvasElement);
-      const loginButton = canvas.getByRole('button', { name: /Submit/i });
+      const loginButton = canvas.getByRole('button', { name: /Add Task/i });
       await expect(loginButton).toBeInTheDocument();
     },
 };
