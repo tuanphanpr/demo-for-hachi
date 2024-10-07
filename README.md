@@ -1,8 +1,12 @@
-# React + Vite
+# Task management demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- A task management page using Reactjs + Vitejs
+- Using the axios library to call API and perform CRUD operations
+- Using mock data from [mockapi.io](https://mockapi.io)
+- The UI library in use i [Ant Design](https://ant.design/components)
+- API URL configuration is set in the .env file
+- Using pnpm to manage `node_modules`
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation commands
+- pnpm: `pnpm install` => `pnpm dev`
+- npm: `npm install` => `npm run dev`
